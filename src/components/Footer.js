@@ -12,7 +12,7 @@ export default () => {
         <li className="footer-item">Member</li>
         <li className="footer-item">Q&A</li>
       </ul>
-      <h1 className="hd-logo">STING</h1>
+      <h1 className="hd-logo">大地さん</h1>
       <ul className="footer-icons">
         <li>
           <TwitterIcon />
