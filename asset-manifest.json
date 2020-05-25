@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/sting-hp/static/css/main.72f7858f.chunk.css",
+    "main.js": "/sting-hp/static/js/main.8f14a029.chunk.js",
+    "main.js.map": "/sting-hp/static/js/main.8f14a029.chunk.js.map",
+    "runtime-main.js": "/sting-hp/static/js/runtime-main.7d2824f6.js",
+    "runtime-main.js.map": "/sting-hp/static/js/runtime-main.7d2824f6.js.map",
+    "static/js/2.b4739d8c.chunk.js": "/sting-hp/static/js/2.b4739d8c.chunk.js",
+    "static/js/2.b4739d8c.chunk.js.map": "/sting-hp/static/js/2.b4739d8c.chunk.js.map",
+    "index.html": "/sting-hp/index.html",
+    "precache-manifest.17b8e308f8ae2fc0ce3b9eb046dd15d5.js": "/sting-hp/precache-manifest.17b8e308f8ae2fc0ce3b9eb046dd15d5.js",
+    "service-worker.js": "/sting-hp/service-worker.js",
+    "static/css/main.72f7858f.chunk.css.map": "/sting-hp/static/css/main.72f7858f.chunk.css.map",
+    "static/js/2.b4739d8c.chunk.js.LICENSE.txt": "/sting-hp/static/js/2.b4739d8c.chunk.js.LICENSE.txt",
+    "static/media/main.scss": "/sting-hp/static/media/IMG_8922.a5dda792.JPG",
+    "static/media/Place.jpg": "/sting-hp/static/media/Place.8b11f859.jpg",
+    "static/media/sting-movie.mp4": "/sting-hp/static/media/sting-movie.df068530.mp4"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7d2824f6.js",
+    "static/js/2.b4739d8c.chunk.js",
+    "static/css/main.72f7858f.chunk.css",
+    "static/js/main.8f14a029.chunk.js"
+  ]
+}
