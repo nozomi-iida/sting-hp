@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import About from './components/About';
+import About from './components/HomeAbout';
 import Attractive from './components/Attractive';
 import Firstview from './components/Firstview';
 import Header from './components/Header';
