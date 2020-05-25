@@ -1,10 +1,10 @@
 import React from 'react';
-import placeImg from '../imgs/Place.jpg';
+import placeImg from '../imgs/tennis.JPG';
 
 export default () => {
   return (
     <section id="place">
-      <div className="inner">
+      <div className="inner attractive-inner">
         <h2 className="title">STINGの活動場所</h2>
         <div className="place-wrap">
           <div className="place-container">
