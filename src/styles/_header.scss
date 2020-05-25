@@ -1,0 +1,14 @@
+.hd-wrap {
+  display: flex;
+  justify-content: space-between;
+  padding: 24px 59px 15px 25px;
+}
+.hd-logo {
+  color: $yellow;
+  font-size: 7.2rem;
+}
+
+.hd-list {
+  font-size: 2.4rem;
+  display: flex;
+}

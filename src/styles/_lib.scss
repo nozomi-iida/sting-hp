@@ -1,0 +1,37 @@
+
+////////////////////////
+//       @mixin       //
+////////////////////////
+
+////////////////////////
+//        変数        //
+////////////////////////
+$yellow: #FDD000;
+$off-yellow: #FFF3BD;
+
+$h3-fz: 2.4rem;
+
+////////////////////////
+//        共通        //
+////////////////////////
+html {
+  font-size: 10px;
+};
+
+body {
+  font-size: 1.8rem;
+};
+
+.inner {
+  width: 90%;
+  margin: 30px auto 0;
+  padding: 0 18px;
+};
+
+.title {
+  font-size: 3.6rem;
+  position: relative;
+  display: inline-block;
+  font-weight: bold;
+  background: linear-gradient(transparent 75%, $yellow 25%);
+};

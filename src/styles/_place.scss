@@ -1,0 +1,17 @@
+.place-wrap {
+  display: flex;
+  justify-content: space-between;
+}
+
+.place-box {
+  margin-top: 50px;
+  line-height: 2;
+}
+
+.place-img {
+  width: 50%;
+
+  img {
+    width: 100%;
+  }
+}
