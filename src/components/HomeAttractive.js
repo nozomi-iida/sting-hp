@@ -23,15 +23,19 @@ export default () => {
               STINGに入ればプライベートが充実すること間違いなし！？</p>
           </div>
         </div>
+        <div className="button-box">
             <Button 
               variant="contained" 
-              color="secondary" 
               href="#contained-buttons" 
-              style={
-                {backgroundColor:"#FDD000"}}
+              style={{
+                backgroundColor:"#FDD000",
+                padding: '10px 25px',
+                fontSize: '20px'
+              }}
             >
               詳しく知りたい！
             </Button>
+        </div>
       </div>
     </section>
   )

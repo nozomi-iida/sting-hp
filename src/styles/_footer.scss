@@ -1,0 +1,35 @@
+#footer {
+  background: #F2F2F2;
+}
+
+.footer-wrap {
+  padding: 20px 18px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-box {
+  text-align: center;
+}
+
+.footer-list {
+  display: flex;
+}
+
+.footer-item {
+  font-size: 1.8rem;
+  margin-right: 39px;
+}
+
+.footer-logo {
+  margin-top: 40px;
+}
+
+.footer-icons {
+  display: flex;
+  align-items: flex-end;
+}
+
+.footer-icon {
+  margin-right: 150px;
+}
