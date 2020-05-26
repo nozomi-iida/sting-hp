@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import About from './components/About';
+import AboutPage from './components/AboutPage';
 import Attractive from './components/Attractive';
 import Firstview from './components/Firstview';
 import Header from './components/Header';
@@ -8,6 +9,7 @@ import Footer from './components/Footer';
 import LINE from './components/LINE';
 import Movie from './components/Movie';
 import Place from './components/Place';
+import Member from './components/Member';
 import './styles/main.scss';
 
 
