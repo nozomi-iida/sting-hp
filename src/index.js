@@ -1,5 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+master
+import AboutPage from './components/AboutPage';
+import Member from './components/Member';
 import About from './components/HomeAbout';
 import Attractive from './components/HomeAttractive';
 import Firstview from './components/HomeFirstview';
@@ -8,6 +11,7 @@ import Footer from './components/Footer';
 import LINE from './components/LINE';
 import Movie from './components/HomeMovie';
 import Place from './components/HomePlace';
+master
 import './styles/main.scss';
 
 
