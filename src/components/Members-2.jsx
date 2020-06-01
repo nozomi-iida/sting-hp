@@ -9,13 +9,14 @@ import { makeStyles } from '@material-ui/core/styles';
 import Container from '@material-ui/core/Container';
 import Box from '@material-ui/core/Box';
 
+
 const useStyles = makeStyles((theme) => ({
     title: {
-        lineHeight: '1',
-        position: 'relative',
-        display: 'inline-block',
-        fontWeight: 'bold',
-        background: 'linear-gradient(transparent 75%, #F6D047 25%)',
+      lineHeight: '1',
+      position: 'relative',
+      display: 'inline-block',
+      fontWeight: 'bold',
+      background: 'linear-gradient(transparent 75%, #F6D047 25%)',
     },
     container: {
         paddingTop: theme.spacing(12),
@@ -74,11 +75,11 @@ export default function Member() {
                 {/* Hero unit */}
                 <div className={classes.heroContent}>
                     <Container maxWidth="sm">
-                        <Box textAlign="center">
-                            <Typography component="h1" variant="h2" align="center" color="textPrimary" gutterBottom className={classes.title}>
-                                STINGの仲間たち
-                            </Typography>
-                        </Box>
+                      <Box textAlign="center">
+                          <Typography component="h1" variant="h2" align="center" color="textPrimary" gutterBottom className={classes.title} >
+                              STINGの仲間たち
+                          </Typography>
+                      </Box>
                         <Typography variant="h5" component={"p"} align="center" color="textSecondary" paragraph
                                     style={{
                                         fontFamily: "Roboto",

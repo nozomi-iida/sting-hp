@@ -10,6 +10,7 @@ import List from '@material-ui/core/List';
 import ListItem from '@material-ui/core/ListItem';
 import ListItemText from '@material-ui/core/ListItemText';
 import MenuIcon from '@material-ui/icons/Menu';
+import { NavLink} from 'react-router-dom';
 
 const useStyles = makeStyles((theme) =>({
   header: {
@@ -18,8 +19,22 @@ const useStyles = makeStyles((theme) =>({
     width: '100%',
     zIndex: theme.zIndex.mobileStepper,
   },
+  title: {
+    marginBottom: theme.spacing(3),
+    fontWeight: 'bold',
+    borderBottom: 'solid 2px #000',
+    display: 'block',
+    textAlign: 'center'
+  },
+  titleLast: {
+    fontWeight: 'bold',
+    borderBottom: 'solid 2px #000',
+    display: 'block',
+    textAlign: 'center',
+
+  },
   hdBox: {
-    padding: theme.spacing(2, 6),
+    padding: theme.spacing(1, 6),
     [theme.breakpoints.down("xs")]: {
       padding: theme.spacing(1, 3)
     }
@@ -30,7 +45,7 @@ const useStyles = makeStyles((theme) =>({
   },
   list: {
     alignItems: 'flex-end',
-    paddingBottom: theme.spacing(1)
+    padding: theme.spacing(3)
   },
   item: {
     marginRight: '30px',
@@ -70,7 +85,7 @@ function Header() {
       onClick={toggleDrawer(anchor, false)}
       onKeyDown={toggleDrawer(anchor, false)}
     >
-      <List>
+      {/* <List>
         {['Home', 'About', 'Event', 'Member(2)','Member(3)', 'Q&A'].map((text) => (
           <ListItem button key={text} divider={true}>
             <ListItemText 
@@ -81,22 +96,30 @@ function Header() {
             />
           </ListItem>
         ))}
-      </List>
+      </List> */}
+      <Box fontSize={24}>
+        <NavLink to="/" variant="h4" className={classes.title} exact={true} >Home</NavLink>
+        <NavLink to="/about" variant="h4" className={classes.title}>About</NavLink>
+        <NavLink to="/event" variant="h4" className={classes.title}>Event</NavLink>
+        <NavLink to="/member-2" variant="h4" className={classes.title}>Member(2)</NavLink>
+        <NavLink to="/member-3" variant="h4" className={classes.item}>Member(3)</NavLink>
+        <NavLink to="/question" variant="h4" className={classes.titleLast}>Q&A</NavLink>
+      </Box>
     </div>
   );
-
+      
   return (
     <header className={classes.header}>
       <Box display="flex" justifyContent="space-between" className={classes.hdBox}>
         <Typography variant="h1" className={classes.logo}>STING</Typography>
         <Hidden smDown>
           <Box display="flex" className={classes.list}>
-            <Typography variant="h4" className={classes.item}>Home</Typography>
-            <Typography variant="h4" className={classes.item}>About</Typography>
-            <Typography variant="h4" className={classes.item}>Event</Typography>
-            <Typography variant="h4" className={classes.item}>Member(2)</Typography>
-            <Typography variant="h4" className={classes.item}>Member(3)</Typography>
-            <Typography variant="h4">Q&A</Typography>
+            <NavLink to="/sting-hp" variant="h4" className={classes.item} exact={true} >Home</NavLink>
+            <NavLink to="/about" variant="h4" className={classes.item}>About</NavLink>
+            <NavLink to="/event" variant="h4" className={classes.item}>Event</NavLink>
+            <NavLink to="/member-2" variant="h4" className={classes.item}>Member(2)</NavLink>
+            <NavLink to="/member-3" variant="h4" className={classes.item}>Member(3)</NavLink>
+            <NavLink to="/question" variant="h4">Q&A</NavLink>
           </Box>
         </Hidden>
         <Hidden mdUp>

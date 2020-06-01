@@ -57,7 +57,7 @@ const useStyle = makeStyles((theme) => ({
   },
 }));
 
-const Firstview = () => {
+export default () => {
   const classes = useStyle();
   return (
     <main>
@@ -149,5 +149,3 @@ const Firstview = () => {
     </main>
   )
 };
-
-export default Firstview

@@ -4,6 +4,9 @@ import Img from "../imgs/IMG_8922.JPG";
 import { makeStyles } from "@material-ui/core/styles";
 
 const useStyles = makeStyles((theme) => ({
+  container: {
+    paddingTop: theme.spacing(12),
+  },
   ttl: {
     display: "inline-block",
     margin: "30px auto",
@@ -86,7 +89,7 @@ const useStyles = makeStyles((theme) => ({
 const About = () => {
   const classes = useStyles();
   return (
-    <main id="about-page">
+    <main id="about-page" className={classes.container}>
       <Box textAlign="center">
         <h1 className={classes.ttl}>STINGの3つの魅力</h1>
       </Box>
