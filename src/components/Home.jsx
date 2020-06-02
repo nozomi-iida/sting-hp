@@ -1,5 +1,5 @@
 import React from 'react';
-import FirstviewImg from '../imgs/IMG_8922.JPG';
+import FirstviewImg from '../imgs/firstView.JPG';
 import Button from '@material-ui/core/Button';
 import placeImg from '../imgs/tennis.JPG';
 import { makeStyles } from '@material-ui/core/styles';
@@ -30,7 +30,8 @@ const useStyle = makeStyles((theme) => ({
     paddingTop: '80px',
   },
   fvImg: {
-    width: '100%'
+    width: '100%',
+    height: '90vh',
   },
   attractiveBox: {
     padding: theme.spacing(2),
@@ -97,7 +98,7 @@ export default () => {
           <div className="button-box">
             <Button 
               variant="contained" 
-              href="#contained-buttons" 
+              href="#line" 
               className={classes.button}
               style={{
                 backgroundColor:"#FDD000",

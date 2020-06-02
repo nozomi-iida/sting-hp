@@ -2,7 +2,14 @@ import React from 'react'
 import { makeStyles } from '@material-ui/core/styles';
 import Box from '@material-ui/core/Box';
 import { Typography } from '@material-ui/core';
-import EventImg from '../imgs/IMG_8922.JPG';
+import May from '../imgs/May.JPG';
+import June from '../imgs/June.JPG';
+import July from '../imgs/July.JPG';
+import August from '../imgs/August.JPG';
+import December from '../imgs/December.JPG';
+import September from '../imgs/September.JPG';
+import November from '../imgs/November.JPG';
+import March from '../imgs/September.JPG';
 
 const useStyle = makeStyles ((theme) => ({
     container: {
@@ -139,59 +146,59 @@ const Event = ()=>{
             </Box>
             <EventCardRight
                 Month='4月'
-                Title='勧誘'
-                img={EventImg}
+                Title='BBQ'
+                img={May}
                 exp='先輩とたくさんお話できるし、みんなでわいわいできるよっ！！ 1年生は無料でお肉がたくさん食べられるのがポイント！笑 このあと1.2年でカラオケにいくよー！！'
             />
 
             <EventCardLeft
                 Month='5月'
-                Title='勧誘'
-                img={EventImg}
+                Title='新歓合宿'
+                img={June}
                 exp='5月にある1年生初めての合宿！ たっくさんテニスできるよ！！ 初心者の子はコーチがいつも以上に丁寧に教えてくれるし、経験者の子は上手な人と打ち合えるし、試合もできるよ！ 一泊二日で短いけど、4年生やOB.OGも来てくれるので、積極的に話しかけてみよう！！ 優しくて面白い先輩がたくさんいるよ'
             />
 
             <EventCardRight
                 Month='6月'
                 Title='フレッシュマン'
-                img={EventImg}
+                img={July}
                 exp='フレッシュでキラキラな1.2年生だけでやる試合だよ 2年生の先輩と組んでダブルスをするよ！ ほかのテニスサークルと対戦するから、交友関係を広げる大チャンスだよ！ 勝ち進めば豪華な景品がもらえるかも？！'
             />
 
             <EventCardLeft
                 Month='8月'
                 Title='強化練'
-                img={EventImg}
+                img={August}
                 exp='夏合宿に向けてテニスを強化するよ！！ あっつい夏休みにみんな汗びしょびしょになりながら全力でテニスするよ '
             />
             <EventCardRight
                 Month='9月'
                 Title='夏合宿'
-                img={EventImg}
+                img={September}
                 exp='９月に行われる夏合宿！！ テニスはもちろんのこと、夏らしいこともたくさんするよ！ BBQ、肝試し、レクリエーションでは水風船をして楽しいことが盛り沢山！！ 夏休みでいちばんの思い出になること間違いなし'
             />
             <EventCardLeft
                 Month='10月'
                 Title='女ハロ'
-                img={EventImg}
+                img={December}
                 exp='5月にある1年生初めての合宿！ たっくさんテニスできるよ！！ 初心者の子はコーチがいつも以上に丁寧に教えてくれるし、経験者の子は上手な人と打ち合えるし、試合もできるよ！ 一泊二日で短いけど、4年生やOB.OGも来てくれるので、積極的に話しかけてみよう！！ 優しくて面白い先輩がたくさんいるよ'
             />
             <EventCardRight
                 Month='11月'
                 Title='白金祭'
-                img={EventImg}
+                img={November}
                 exp='先輩とたくさんお話できるし、みんなでわいわいできるよっ！！ 1年生は無料でお肉がたくさん食べられるのがポイント！笑 このあと1.2年でカラオケにいくよー！！'
             />
             <EventCardLeft
                 Month='12月'
                 Title='クリスマスミックス'
-                img={EventImg}
+                img={December}
                 exp='男女でペアを組んで試合をするよ １年生が組みたい先輩を誘うんだよ ドキドキだね クリスマスミックスは、ペアの先輩とコスプレの買い出しに行くのも楽しみのひとつ！！ 本当のカップルで組むリアルミックスがあったりして？！ '
             />
             <EventCardRight
                 Month='3月'
                 Title='春合宿'
-                img={EventImg}
+                img={March}
                 exp='２月に行われる春合宿は、２年生初仕切りの合宿！！ １年生のこと、２年生が楽しませてくれること間違いなし！！ 途中から先輩も遊びに来てくれるよっ！ 雪が積もってるときもあって少し寒いけど、たくさんテニスしてあったまろう！！'
             />
             

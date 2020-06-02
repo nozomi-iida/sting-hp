@@ -53,12 +53,12 @@ export default () => {
           <Typography variant="h1" className={classes.logo} align="center" >STING</Typography>
           <Box display="flex" alignItems="flex-end">
             <ListItem>
-              <Link href="https://twitter.com/mgu_sting2020" >
+              <Link href="https://twitter.com/mgu_sting2020" target="_blank">
                   <TwitterIcon className={classes.icon} />
               </Link>
             </ListItem>
             <ListItem>
-              <Link href="https://www.instagram.com/mgu_sting2020/?hl=ja">
+              <Link href="https://www.instagram.com/mgu_sting2020/?hl=ja" target="_blank">
                 <InstagramIcon className={classes.icon} />
               </Link>
             </ListItem>

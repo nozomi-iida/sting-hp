@@ -1,6 +1,8 @@
 import React from "react";
 import { Box } from "@material-ui/core";
-import Img from "../imgs/IMG_8922.JPG";
+import tennisImg from "../imgs/tennisPicture.JPG";
+import eventImg from "../imgs/event.JPG";
+import privaetImg from "../imgs/private.JPG";
 import { makeStyles } from "@material-ui/core/styles";
 
 const useStyles = makeStyles((theme) => ({
@@ -76,7 +78,6 @@ const useStyles = makeStyles((theme) => ({
     margin: "37px auto",
     fontFamily: "Roboto",
     fontStyle: "normal",
-    fontWeight: "bold",
     fontSize: "24px",
     [theme.breakpoints.down("sm")]: {
       width: "95%",
@@ -99,7 +100,7 @@ const About = () => {
         </div>
         <div className={classes.img}>
           <img
-            src={Img}
+            src={tennisImg}
             alt=""
             style={{
               width: "100%",
@@ -119,7 +120,7 @@ const About = () => {
         </div>
         <div className={classes.img}>
           <img
-            src={Img}
+            src={eventImg}
             alt=""
             style={{
               width: "100%",
@@ -138,7 +139,7 @@ const About = () => {
         </div>
         <div className={classes.img}>
           <img
-            src={Img}
+            src={privaetImg}
             alt=""
             style={{
               width: "100%",

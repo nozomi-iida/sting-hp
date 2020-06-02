@@ -6,9 +6,6 @@ import Typography from '@material-ui/core/Typography';
 import Hidden from '@material-ui/core/Hidden';
 import Drawer from '@material-ui/core/Drawer';
 import Button from '@material-ui/core/Button';
-import List from '@material-ui/core/List';
-import ListItem from '@material-ui/core/ListItem';
-import ListItemText from '@material-ui/core/ListItemText';
 import MenuIcon from '@material-ui/icons/Menu';
 import { NavLink} from 'react-router-dom';
 
@@ -16,6 +13,7 @@ const useStyles = makeStyles((theme) =>({
   header: {
     position: 'fixed',
     background: '#fff',
+    borderBottom: 'solid .7px #C4C4C4',
     width: '100%',
     zIndex: theme.zIndex.mobileStepper,
   },
@@ -102,12 +100,12 @@ function Header() {
         <NavLink to="/about" variant="h4" className={classes.title}>About</NavLink>
         <NavLink to="/event" variant="h4" className={classes.title}>Event</NavLink>
         <NavLink to="/member-2" variant="h4" className={classes.title}>Member(2)</NavLink>
-        <NavLink to="/member-3" variant="h4" className={classes.item}>Member(3)</NavLink>
+        <NavLink to="/member-3" variant="h4" className={classes.title}>Member(3)</NavLink>
         <NavLink to="/question" variant="h4" className={classes.titleLast}>Q&A</NavLink>
       </Box>
     </div>
   );
-      
+
   return (
     <header className={classes.header}>
       <Box display="flex" justifyContent="space-between" className={classes.hdBox}>
