@@ -1,25 +1,35 @@
 {
   "files": {
-    "main.css": "/sting-hp/static/css/main.72f7858f.chunk.css",
-    "main.js": "/sting-hp/static/js/main.8f14a029.chunk.js",
-    "main.js.map": "/sting-hp/static/js/main.8f14a029.chunk.js.map",
-    "runtime-main.js": "/sting-hp/static/js/runtime-main.7d2824f6.js",
-    "runtime-main.js.map": "/sting-hp/static/js/runtime-main.7d2824f6.js.map",
-    "static/js/2.b4739d8c.chunk.js": "/sting-hp/static/js/2.b4739d8c.chunk.js",
-    "static/js/2.b4739d8c.chunk.js.map": "/sting-hp/static/js/2.b4739d8c.chunk.js.map",
+    "main.css": "/sting-hp/static/css/main.3c956184.chunk.css",
+    "main.js": "/sting-hp/static/js/main.e7167aeb.chunk.js",
+    "main.js.map": "/sting-hp/static/js/main.e7167aeb.chunk.js.map",
+    "runtime-main.js": "/sting-hp/static/js/runtime-main.11660091.js",
+    "runtime-main.js.map": "/sting-hp/static/js/runtime-main.11660091.js.map",
+    "static/js/2.52471d08.chunk.js": "/sting-hp/static/js/2.52471d08.chunk.js",
+    "static/js/2.52471d08.chunk.js.map": "/sting-hp/static/js/2.52471d08.chunk.js.map",
     "index.html": "/sting-hp/index.html",
-    "precache-manifest.17b8e308f8ae2fc0ce3b9eb046dd15d5.js": "/sting-hp/precache-manifest.17b8e308f8ae2fc0ce3b9eb046dd15d5.js",
+    "precache-manifest.ca2ed02b0b335b083e466369c9d59d61.js": "/sting-hp/precache-manifest.ca2ed02b0b335b083e466369c9d59d61.js",
     "service-worker.js": "/sting-hp/service-worker.js",
-    "static/css/main.72f7858f.chunk.css.map": "/sting-hp/static/css/main.72f7858f.chunk.css.map",
-    "static/js/2.b4739d8c.chunk.js.LICENSE.txt": "/sting-hp/static/js/2.b4739d8c.chunk.js.LICENSE.txt",
-    "static/media/main.scss": "/sting-hp/static/media/IMG_8922.a5dda792.JPG",
-    "static/media/Place.jpg": "/sting-hp/static/media/Place.8b11f859.jpg",
-    "static/media/sting-movie.mp4": "/sting-hp/static/media/sting-movie.df068530.mp4"
+    "static/css/main.3c956184.chunk.css.map": "/sting-hp/static/css/main.3c956184.chunk.css.map",
+    "static/js/2.52471d08.chunk.js.LICENSE.txt": "/sting-hp/static/js/2.52471d08.chunk.js.LICENSE.txt",
+    "static/media/August.JPG": "/sting-hp/static/media/August.a8770807.JPG",
+    "static/media/December.JPG": "/sting-hp/static/media/December.c85e815e.JPG",
+    "static/media/July.JPG": "/sting-hp/static/media/July.ec9cf1ac.JPG",
+    "static/media/June.JPG": "/sting-hp/static/media/June.ed494f09.JPG",
+    "static/media/May.JPG": "/sting-hp/static/media/May.504052ce.JPG",
+    "static/media/November.JPG": "/sting-hp/static/media/November.6d224533.JPG",
+    "static/media/main.scss": "/sting-hp/static/media/smile.0590434b.JPG",
+    "static/media/September.JPG": "/sting-hp/static/media/September.416d74db.JPG",
+    "static/media/event.JPG": "/sting-hp/static/media/event.90f8bc00.JPG",
+    "static/media/firstView.JPG": "/sting-hp/static/media/firstView.7dba7608.JPG",
+    "static/media/private.JPG": "/sting-hp/static/media/private.0e03fd08.JPG",
+    "static/media/tennis.JPG": "/sting-hp/static/media/tennis.7fac9a76.JPG",
+    "static/media/tennisPicture.JPG": "/sting-hp/static/media/tennisPicture.99845735.JPG"
   },
   "entrypoints": [
-    "static/js/runtime-main.7d2824f6.js",
-    "static/js/2.b4739d8c.chunk.js",
-    "static/css/main.72f7858f.chunk.css",
-    "static/js/main.8f14a029.chunk.js"
+    "static/js/runtime-main.11660091.js",
+    "static/js/2.52471d08.chunk.js",
+    "static/css/main.3c956184.chunk.css",
+    "static/js/main.e7167aeb.chunk.js"
   ]
 }
