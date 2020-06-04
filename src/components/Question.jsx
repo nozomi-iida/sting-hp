@@ -145,7 +145,7 @@ const Question = () => {
                         </ExpansionPanelSummary>
                         <ExpansionPanelDetails >
                         <Typography className={classes.tag} style={{backgroundColor:'white',display:'flex', width:'100%' }}>
-                            <Avatar className={classes.tagimage} alt="Remy Sharp" src="/static/images/avatar/1.jpg" />
+                            <Avatar className={classes.tagimage} alt="Remy Sharp" src={yamada2} />
                             <p className={classes.tagtext}>
                             今のところ未定です🙇‍♂️<br/>
                             予定が決まり次第Twitterや公式LINEですぐにお知らせするので少々お待ち下さい🤲<br/>
@@ -164,7 +164,7 @@ const Question = () => {
                         </ExpansionPanelSummary>
                         <ExpansionPanelDetails >
                         <Typography className={classes.tag} style={{backgroundColor:'white',display:'flex', width:'100%' }}>
-                            <Avatar className={classes.tagimage} alt="Remy Sharp" src="/static/images/avatar/1.jpg" />
+                            <Avatar className={classes.tagimage} alt="Remy Sharp" src={yamada2} />
                             <p className={classes.tagtext}>
                             サークルのいい所は、サークルに入らなかったら絶対に交れなかった先輩後輩同期と繋がれて仲良くなれることやサークルに入っているからこそ、通常の大学生活では体験できないようなことが思い出を作ることが出来ることです！！😁<br/>
                             色々な人と交わることができて本当に毎日が楽しいです🎾
@@ -183,7 +183,7 @@ const Question = () => {
                         </ExpansionPanelSummary>
                         <ExpansionPanelDetails >
                         <Typography className={classes.tag} style={{backgroundColor:'white',display:'flex', width:'100%' }}>
-                            <Avatar className={classes.tagimage} alt="Remy Sharp" src="/static/images/avatar/1.jpg" />
+                            <Avatar className={classes.tagimage} alt="Remy Sharp" src={yamada2} />
                             <p className={classes.tagtext}>
                             今のところ定員などは設けておりません！お気軽にご参加ください！😁<br/>
                             今後の新歓の予定などの連絡はLINEの方で行うので是非公式LINEお友達追加お願いします！🤲🎾
@@ -201,7 +201,7 @@ const Question = () => {
                         </ExpansionPanelSummary>
                         <ExpansionPanelDetails >
                         <Typography className={classes.tag} style={{backgroundColor:'white',display:'flex', width:'100%' }}>
-                            <Avatar className={classes.tagimage} alt="Remy Sharp" src="/static/images/avatar/1.jpg" />
+                            <Avatar className={classes.tagimage} alt="Remy Sharp" src={yamada2} />
                             <p className={classes.tagtext}>
                             初心者の方も沢山いますので是非きてください！！😁<br/>
                             ラケットはこちらで貸し出しするつもりなので手ぶらでも大丈夫ですよー👍
