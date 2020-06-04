@@ -83,20 +83,8 @@ function Header() {
       onClick={toggleDrawer(anchor, false)}
       onKeyDown={toggleDrawer(anchor, false)}
     >
-      {/* <List>
-        {['Home', 'About', 'Event', 'Member(2)','Member(3)', 'Q&A'].map((text) => (
-          <ListItem button key={text} divider={true}>
-            <ListItemText 
-              primary={text}
-              classes= {{
-                primary: classes.listItemText,
-              }}
-            />
-          </ListItem>
-        ))}
-      </List> */}
       <Box fontSize={24}>
-        <NavLink to="/" variant="h4" className={classes.title} exact={true} >Home</NavLink>
+        <NavLink to="/sting-hp" variant="h4" className={classes.title} exact={true} >Home</NavLink>
         <NavLink to="/about" variant="h4" className={classes.title}>About</NavLink>
         <NavLink to="/event" variant="h4" className={classes.title}>Event</NavLink>
         <NavLink to="/member-2" variant="h4" className={classes.title}>Member(2)</NavLink>
