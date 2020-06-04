@@ -6,6 +6,7 @@ import TwitterIcon from '@material-ui/icons/Twitter';
 import InstagramIcon from '@material-ui/icons/Instagram';
 import Link from '@material-ui/core/Link';
 import Box from '@material-ui/core/Box';
+import { NavLink} from 'react-router-dom';
 
 
 const useStyle = makeStyles((theme) =>({
@@ -41,13 +42,21 @@ export default () => {
   return (
     <section id="footer">
       <Box className={classes.inner} >
-        <Box display="flex">
+        {/* <Box display="flex">
           <Typography variant="h4" className={classes.listItem}>Home</Typography>
           <Typography variant="h4" className={classes.listItem}>About</Typography>
           <Typography variant="h4" className={classes.listItem}>Event</Typography>
           <Typography variant="h4" className={classes.listItem}>Member(2)</Typography>
           <Typography variant="h4" className={classes.listItem}>Member(3)</Typography>
           <Typography variant="h4" className={classes.listItem}>Q&A</Typography>
+        </Box> */}
+        <Box fontSize={24}>
+          <NavLink to="/sting-hp" variant="h4" className={classes.listItem} exact={true} >Home</NavLink>
+          <NavLink to="/about" variant="h4" className={classes.listItem}>About</NavLink>
+          <NavLink to="/event" variant="h4" className={classes.listItem}>Event</NavLink>
+          <NavLink to="/member-2" variant="h4" className={classes.listItem}>Member(2)</NavLink>
+          <NavLink to="/member-3" variant="h4" className={classes.listItem}>Member(3)</NavLink>
+          <NavLink to="/question" variant="h4" className={classes.listItemLast}>Q&A</NavLink>
         </Box>
         <Box display="flex" justifyContent="space-between">
           <Typography variant="h1" className={classes.logo} align="center" >STING</Typography>

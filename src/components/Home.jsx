@@ -31,7 +31,6 @@ const useStyle = makeStyles((theme) => ({
   },
   fvImg: {
     width: '100%',
-    height: '90vh',
   },
   attractiveBox: {
     padding: theme.spacing(2),
