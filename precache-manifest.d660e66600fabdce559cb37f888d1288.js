@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2a6cc98690ed0a79430ac2df87440580",
+    "revision": "76543dca1f18834f9084d62b651fc3f7",
     "url": "/sting-hp/index.html"
   },
   {
-    "revision": "360ec9cfbf24131da8a6",
-    "url": "/sting-hp/static/css/main.3c956184.chunk.css"
+    "revision": "c754438cfc3d6c9ac321",
+    "url": "/sting-hp/static/css/main.a7f420ae.chunk.css"
   },
   {
     "revision": "789f0ef53d311147dca0",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/sting-hp/static/js/2.52471d08.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "360ec9cfbf24131da8a6",
+    "revision": "c754438cfc3d6c9ac321",
     "url": "/sting-hp/static/js/main.e7167aeb.chunk.js"
   },
   {

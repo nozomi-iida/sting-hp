@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/sting-hp/static/css/main.3c956184.chunk.css",
+    "main.css": "/sting-hp/static/css/main.a7f420ae.chunk.css",
     "main.js": "/sting-hp/static/js/main.e7167aeb.chunk.js",
     "main.js.map": "/sting-hp/static/js/main.e7167aeb.chunk.js.map",
     "runtime-main.js": "/sting-hp/static/js/runtime-main.11660091.js",
@@ -8,9 +8,9 @@
     "static/js/2.52471d08.chunk.js": "/sting-hp/static/js/2.52471d08.chunk.js",
     "static/js/2.52471d08.chunk.js.map": "/sting-hp/static/js/2.52471d08.chunk.js.map",
     "index.html": "/sting-hp/index.html",
-    "precache-manifest.ca2ed02b0b335b083e466369c9d59d61.js": "/sting-hp/precache-manifest.ca2ed02b0b335b083e466369c9d59d61.js",
+    "precache-manifest.d660e66600fabdce559cb37f888d1288.js": "/sting-hp/precache-manifest.d660e66600fabdce559cb37f888d1288.js",
     "service-worker.js": "/sting-hp/service-worker.js",
-    "static/css/main.3c956184.chunk.css.map": "/sting-hp/static/css/main.3c956184.chunk.css.map",
+    "static/css/main.a7f420ae.chunk.css.map": "/sting-hp/static/css/main.a7f420ae.chunk.css.map",
     "static/js/2.52471d08.chunk.js.LICENSE.txt": "/sting-hp/static/js/2.52471d08.chunk.js.LICENSE.txt",
     "static/media/August.JPG": "/sting-hp/static/media/August.a8770807.JPG",
     "static/media/December.JPG": "/sting-hp/static/media/December.c85e815e.JPG",
@@ -29,7 +29,7 @@
   "entrypoints": [
     "static/js/runtime-main.11660091.js",
     "static/js/2.52471d08.chunk.js",
-    "static/css/main.3c956184.chunk.css",
+    "static/css/main.a7f420ae.chunk.css",
     "static/js/main.e7167aeb.chunk.js"
   ]
 }
