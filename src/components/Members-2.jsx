@@ -9,6 +9,18 @@ import { makeStyles } from '@material-ui/core/styles';
 import Container from '@material-ui/core/Container';
 import Box from '@material-ui/core/Box';
 import May from '../imgs/May.JPG';
+import akeno from '../memberImages2/akeno.jpg';
+import an from '../memberImages2/an.jpg';
+import egasira from '../memberImages2/egasira.jpg';
+import hamada from '../memberImages2/hamada.jpg';
+import kaneko from '../memberImages2/kaneko.jpg';
+import kurokawa from '../memberImages2/kurokawa.jpg';
+import nakamura from '../memberImages2/nakamura.jpg';
+import ookuma from '../memberImages2/ookuma.jpg';
+import seira from '../memberImages2/seira.jpg';
+import takaoka from '../memberImages2/takaoka.jpg';
+import harada from '../memberImages2/harada.jpg';
+import suzuki from '../memberImages2/suzuki.jpg';
 
 const useStyles = makeStyles((theme) => ({
     title: {
@@ -175,7 +187,7 @@ const members = [
         role:"渉内補佐・コーチ",
         faculty:"法学部・消費情報環境学科",
         note:"やまたくの弟子一人目、鈴木了介🙋🏽\nSTING大好きなリョウスケはいつも遊びの計画を立ててくれるよ！\n盛り上げ上手なリョウスケと遊べば楽しいこと間違いなし🤩\nやまたくの弟子だから、なんでも奢ってくれるはずだよ😉",
-        img: `${May}`
+        img: `${suzuki}`
     },
 
     {
@@ -185,7 +197,7 @@ const members = [
         role:"渉内補佐・連盟",
         faculty:"文学部・フランス文学科",
         note:"愛称はクマ🐻\nインスタでSTINGのアーカイブ投稿をこっそりしている実はサークル愛が深い系男子🐻❤️\nそんなクマは千葉に住んでるレアものだよ！🐻\nザイザイと千葉住みは集まれ〜！！🐻💫",
-        img: `${May}`
+        img: `${ookuma}`
     },
 
     {
@@ -196,7 +208,7 @@ const members = [
         faculty:"心理学部・心理学科",
         attraction:"先輩・後輩関係なく仲が良い事",
         note:"見た目通りの優しさとノリの良さから''子牛君''って呼ばれてるよ🐮\nマジメとおバカを兼ね備えた逸材😂😂\n素直で泣き虫なところも可愛いよ😬\n出会った人を虜にする謎の魅力がある？？🧐\nそんなりょじくんは年中彼女募集中だから１女のみんなは今がチャンス！！🌟",
-        img: `${May}`
+        img: `${kurokawa}`
     },
     {
         id: "takaoka",
@@ -206,7 +218,7 @@ const members = [
         faculty:"経済学部・経済学科",
         attraction:"先輩・後輩関係なく仲が良い事",
         note:"四団体のイケメンたいち🕺🏽💕\n服が趣味のたいちは、古着巡りやショッピングが大好きなの！！\nハイブランドすぎてトータルコーディネート○○万円のときもあるらしい？！🤑\nそんなたいちといっしょにショッピングしたい子は集まれっ😻😻",
-        img: `${May}`
+        img: `${takaoka}`
     },
     {
         id: "egasira",
@@ -215,7 +227,7 @@ const members = [
         role:"渉内補佐・連盟",
         faculty:"文学部・英文学科",
         note:"やまたくの弟子二人目、江頭柚衣🙋🏽‍♀️\n極度の人見知りゆいちゃん。\n初対面だと全く話さないし控えめなのに、仲良くなるとよくしゃべる？？😆\n一人暮らししてるからたくさん遊びに行って、ゆいちゃんの本性知っちゃおう😍",
-        img: `${May}`
+        img: `${egasira}`
     },
     {
         id: "nakamura",
@@ -224,7 +236,7 @@ const members = [
         role:"渉内補佐・コーチ",
         faculty:"国際学部・国際学科",
         note:"ともみの愛称は「てぃも」🧚‍♀️\nテニスがうまくて、スタイル抜群で、とーっても美人さんだけど、残念ながら単位なし🤦🏽‍♀️🤦🏽‍♀️\n２年はまともに過ごすみたいだけど、STINGのみんなといると単位のことなんて忘れちゃうからたくさん遊んでくれるはず！！😂\n今から留年しないか心配だよ🤧",
-        img: `${May}`
+        img: `${nakamura}`
     },
     {
         id: "kaneko",
@@ -233,7 +245,7 @@ const members = [
         role:"渉外補佐",
         faculty:"文学部・フランス文学科",
         note:"テニスがとっても上手なりほ！！🎾\n初心者の子はりほに教えてもらえば絶対うまくなるよっ😻\nそんなりほは優しくて、話しやすいの！！\n１年生はフレンドリーなりほのところに集合❣️",
-        img: `${May}`
+        img: `${kaneko}`
     },
     {
         id: "hamada",
@@ -242,7 +254,7 @@ const members = [
         role:"渉外補佐",
         faculty:"社会学部・社会福祉学科",
         note:"あつみの愛称は「あったん」👼🏼可愛いくて、ちょっぴり天然なあったんのことがみんなだーいすきなの🤤❤️そんなあったんは巫女さんのバイトしてて、実は双子っていうウワサだよ🤭いっしょに遊んだらイチコロ😏あったんと遊びたい１年生は集合❤︎❤︎",
-        img: `${May}`
+        img: `${hamada}`
     },
     {
         id: "akeno",
@@ -251,7 +263,7 @@ const members = [
         role:"渉内補佐",
         faculty:"社会学部・社会福祉学科",
         note:"あったんとニコイチきょうか👩‍❤️‍👩\nきょうかのあざとさに男子はみんな騙されちゃう🤦🏽‍♀️🤦🏽‍♀️\n１男は気をつけるべし！！⚠️笑\nそんなきょうかはすっごいお金持ちだからたくさん奢ってもらおう！！🤑！！",
-        img: `${May}`
+        img: `${akeno}`
     },
     {
         id: "harada",
@@ -260,7 +272,7 @@ const members = [
         role:"渉外補佐",
         faculty:"社会学部・社会学科",
         note:"愛されキャラのりり！！💖\nフレンドリーで誰とでもすぐ仲良くなっちゃう😘\nそんなりりは怒ると、ふぐみたいに口を膨らますからみんなから''ふぐ🐡''って呼ばれてるよ😉\n怒ったりりから発射されるちぇるちぇるびーむ⚡️を見たい子は集まれ〜！🙋🏽‍♀️🙋🏽‍♀️",
-        img: `${May}`
+        img: `${harada}`
     },
     {
         id: "an",
@@ -269,7 +281,7 @@ const members = [
         role:"渉外補佐",
         faculty:"社会学部・社会学科",
         note:"がんちゃんことあんちゃん！！😆\nとーっても優しいあんちゃんは最近２年生のみんなを引っ張ってくれてるみたい❣️\nテニス初心者だけど、どんどんうまくなってるよ！！🎾\nそんなあんちゃんはお洒落なカフェに詳しいから連れて行ってもらおう☕️💗",
-        img: `${May}`
+        img: `${an}`
     },
     {
         id: "abe",
@@ -278,6 +290,6 @@ const members = [
         role:"渉内補佐",
         faculty:"国際学部・国際学科",
         note:"ラストはタリーズでバイトしてるオシャレガールせいら☕️💕\nそんなせいらは人見知りで、いつも機嫌悪そうだよ😂😂\nだけどホントはすっごい良い子で、１年生のみんなから話しかけられたら喜ぶと思う！！笑\nいつも金欠って騒いでるけど、かわいい１年生のためならたくさん奢ってくれるよ😘",
-        img: `${May}`
+        img: `${seira}`
     },
 ]

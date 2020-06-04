@@ -7,6 +7,7 @@ import Typography from '@material-ui/core/Typography';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import Avatar from '@material-ui/core/Avatar';
 import Box from '@material-ui/core/Box';
+import yamada2 from '../memberImages/yamada2.png';
 
 const useStyles = makeStyles((theme) => ({
     container: {
@@ -63,16 +64,16 @@ tag:{
     }
   },
   tagimage:{
-    width:'50px',
-    height:'50px',
+    width:'70px',
+    height:'70px',
     padding:'10px',
     margin:'10px',
-    [theme.breakpoints.down("sm")]: {
-    width:'20px',
-    height:'20px',
-    padding:'5px',
-    margin:'5px',
-    },
+    // [theme.breakpoints.down("sm")]: {
+    // width:'20px',
+    // height:'20px',
+    // padding:'5px',
+    // margin:'5px',
+    // },
   },
   tagtext:{
     width:'85%',
@@ -107,12 +108,12 @@ const Question = () => {
                         </ExpansionPanelSummary>
                         <ExpansionPanelDetails >
                         <Typography className={classes.tag} style={{backgroundColor:'white',display:'flex', width:'100%' }}>
-                            <Avatar className={classes.tagimage} alt="Remy Sharp" src="/static/images/avatar/1.jpg" />
-                            <div className={classes.tagtext}>
+                            <Avatar className={classes.tagimage} alt="Remy Sharp" src={yamada2} />
+                            <p className={classes.tagtext}>
                                 経験者が24人初心者が16人と比率は3：2ほどとなっております！😁<br/>
                                 経験者だけでなく初心者も沢山います！<br/>
                                 また初心者コートと言ってテニス初心者の方も気軽にテニスを楽しめるものも用意しているので初心者の方も大歓迎してます！🎾
-                            </div>
+                            </p>
                         </Typography>
                         </ExpansionPanelDetails>
                     </ExpansionPanel>
@@ -126,11 +127,11 @@ const Question = () => {
                         </ExpansionPanelSummary>
                         <ExpansionPanelDetails >
                         <Typography className={classes.tag} style={{backgroundColor:'white',display:'flex', width:'100%' }}>
-                            <Avatar className={classes.tagimage} alt="Remy Sharp" src="/static/images/avatar/1.jpg" />
-                            <div className={classes.tagtext}>
+                            <Avatar className={classes.tagimage} alt="Remy Sharp" src={yamada2} />
+                            <p className={classes.tagtext}>
                             僕も大学入学当初はテニスサークルに対してチャラいなどのマイナスイメージを持ってました笑😅でも！STINGの動画や幹部紹介などを見ていただければわかるのですが本当に面白く優しい人ばかりです！🥰それを踏まえつつ公開練習などで雰囲気を直に味わってもらうのが1番だと思います！！🤲<br/>
                             百聞一見にしかずです！😁
-                            </div>
+                            </p>
                         </Typography>
                         </ExpansionPanelDetails>
                     </ExpansionPanel>
@@ -145,11 +146,11 @@ const Question = () => {
                         <ExpansionPanelDetails >
                         <Typography className={classes.tag} style={{backgroundColor:'white',display:'flex', width:'100%' }}>
                             <Avatar className={classes.tagimage} alt="Remy Sharp" src="/static/images/avatar/1.jpg" />
-                            <div className={classes.tagtext}>
+                            <p className={classes.tagtext}>
                             今のところ未定です🙇‍♂️<br/>
                             予定が決まり次第Twitterや公式LINEですぐにお知らせするので少々お待ち下さい🤲<br/>
                             早くコロナが治って欲しいです😭
-                            </div>
+                            </p>
                         </Typography>
                         </ExpansionPanelDetails>
                     </ExpansionPanel>
@@ -164,10 +165,10 @@ const Question = () => {
                         <ExpansionPanelDetails >
                         <Typography className={classes.tag} style={{backgroundColor:'white',display:'flex', width:'100%' }}>
                             <Avatar className={classes.tagimage} alt="Remy Sharp" src="/static/images/avatar/1.jpg" />
-                            <div className={classes.tagtext}>
+                            <p className={classes.tagtext}>
                             サークルのいい所は、サークルに入らなかったら絶対に交れなかった先輩後輩同期と繋がれて仲良くなれることやサークルに入っているからこそ、通常の大学生活では体験できないようなことが思い出を作ることが出来ることです！！😁<br/>
                             色々な人と交わることができて本当に毎日が楽しいです🎾
-                            </div>
+                            </p>
                         </Typography>
                         </ExpansionPanelDetails>
                     </ExpansionPanel>
@@ -183,10 +184,10 @@ const Question = () => {
                         <ExpansionPanelDetails >
                         <Typography className={classes.tag} style={{backgroundColor:'white',display:'flex', width:'100%' }}>
                             <Avatar className={classes.tagimage} alt="Remy Sharp" src="/static/images/avatar/1.jpg" />
-                            <div className={classes.tagtext}>
+                            <p className={classes.tagtext}>
                             今のところ定員などは設けておりません！お気軽にご参加ください！😁<br/>
                             今後の新歓の予定などの連絡はLINEの方で行うので是非公式LINEお友達追加お願いします！🤲🎾
-                            </div>
+                            </p>
                         </Typography>
                         </ExpansionPanelDetails>
                     </ExpansionPanel>
@@ -201,10 +202,10 @@ const Question = () => {
                         <ExpansionPanelDetails >
                         <Typography className={classes.tag} style={{backgroundColor:'white',display:'flex', width:'100%' }}>
                             <Avatar className={classes.tagimage} alt="Remy Sharp" src="/static/images/avatar/1.jpg" />
-                            <div className={classes.tagtext}>
+                            <p className={classes.tagtext}>
                             初心者の方も沢山いますので是非きてください！！😁<br/>
                             ラケットはこちらで貸し出しするつもりなので手ぶらでも大丈夫ですよー👍
-                            </div>
+                            </p>
                         </Typography>
                         </ExpansionPanelDetails>
                     </ExpansionPanel>

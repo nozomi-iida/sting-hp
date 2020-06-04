@@ -1,5 +1,5 @@
 import React from "react";
-import { Box } from "@material-ui/core";
+import { Box, Typography } from "@material-ui/core";
 import tennisImg from "../imgs/tennisPicture.JPG";
 import eventImg from "../imgs/event.JPG";
 import privaetImg from "../imgs/private.JPG";
@@ -9,20 +9,12 @@ const useStyles = makeStyles((theme) => ({
   container: {
     paddingTop: theme.spacing(12),
   },
-  ttl: {
-    display: "inline-block",
-    margin: "30px auto",
-    fontFamily: "Roboto",
-    fontStyle: "normal",
-    fontWeight: "Bold",
-    fontSize: "36px",
-    lineHeight: "42px",
-    textAlign: "center",
-    background: "linear-gradient(transparent 60%, #F6D047 60%)",
-    [theme.breakpoints.down("sm")]: {
-      fontSize: "30px",
-      lineHeight: "35px",
-    },
+  title: {
+    lineHeight: '1',
+    position: 'relative',
+    display: 'inline-block',
+    fontWeight: 'bold',
+    background: 'linear-gradient(transparent 75%, #F6D047 25%)',            
   },
   section: {
     width: "84%",
@@ -91,8 +83,13 @@ const About = () => {
   const classes = useStyles();
   return (
     <main id="about-page" className={classes.container}>
-      <Box textAlign="center">
+      {/* <Box textAlign="center">
         <h1 className={classes.ttl}>STINGの3つの魅力</h1>
+      </Box> */}
+      <Box textAlign="center">
+          <Typography component="h1" variant="h2" align="center" color="textPrimary" gutterBottom className={classes.title} >
+            STINGの3つの魅力
+          </Typography>
       </Box>
       <section className={classes.section}>
         <div className={classes.secTitleBox}>

@@ -8,7 +8,19 @@ import Typography from '@material-ui/core/Typography';
 import { makeStyles } from '@material-ui/core/styles';
 import Container from '@material-ui/core/Container';
 import Box from '@material-ui/core/Box';
-import May from '../imgs/May.JPG';
+import yamada from '../memberImages/yamada.jpg';
+import nabeta from '../memberImages/nabeta.jpg'
+import hasegawa from '../memberImages/hasegawa.jpg'
+import umemura from '../memberImages/umemura.jpg'
+import terasima from '../memberImages/terasima.jpg'
+import iguti from '../memberImages/iguti.jpg'
+import watanabe from '../memberImages/watanabe.jpg'
+import haradaguti from '../memberImages/haradaguti.jpg'
+import mimura from '../memberImages/mimura.jpg'
+import wakabayasi from '../memberImages/wakabayasi.jpg'
+import nomoto from '../memberImages/nomoto.jpg'
+import ikeda from '../memberImages/ikeda.jpg'
+import taguti from '../memberImages/taguti.jpg'
 
 const useStyles = makeStyles((theme) => ({
     title: {
@@ -179,7 +191,7 @@ const members = [
         role:"部長",
         faculty:"経済学部・経営学科",
         note:"部長の愛称は「やまたく」！！STINGへの想いが人一倍強くて、常に色んな企画や楽しいことを考えてくれる部長！\nフレンドリーだから誰とでもすぐ打ち解けちゃうやまたく😊\n優しさのあまり後輩になんでも奢っちゃうからいっつも金欠💸笑\n単位は全然ないからそこは参考にならないかも🥺🥺\n戸塚に住んでるからみんなで遊びに行って、鍋パとかタコパしてたよ！！\nこれからも戸塚に住み続けるらしいから1年生のみんなも遊びに行っちゃおう😂",
-        img: `${May}`
+        img: `${yamada}`
     },
 
     {
@@ -189,7 +201,7 @@ const members = [
         role:"副部長・渉内部長・コーチ",
         faculty:"文学部・フランス文学科",
         note:"実はたっくさん役職についてるなべあつ！！\nコーチでテニス上手だからみんな勝負を挑んでみてっ🎾\n自称パーフェクトヒューマンNABETAくんはなんと誰もが知ってるアパレル店員！！\nお店のInstagramにも載ってるらしい🤭\nそんなあつきはお金たくさん持ってるみたいだから１年生は奢ってもらおう😘",
-        img: `${May}`
+        img: `${nabeta}`
     },
 
     {
@@ -200,7 +212,7 @@ const members = [
         faculty:"心理学部・心理学科",
         attraction:"先輩・後輩関係なく仲が良い事",
         note:"一大イベントの合宿を仕切ってくれる勇飛は実はとっても頼りになるの👊🏼\n３男でいちばんイケメンな勇飛はクールで優しい！\nしかもこの顔で歌がめちゃくちゃうまい！！\nいっしょにカラオケ行ったら惚れちゃうよ😳\n勇飛の歌声を聞きたい１年生はカラオケに連れて行ってもらおう🎤",
-        img: `${May}`
+        img: `${iguti}`
     },
     {
         id: "watanabe",
@@ -210,7 +222,7 @@ const members = [
         faculty:"経済学部・経済学科",
         attraction:"先輩・後輩関係なく仲が良い事",
         note:"「しゅんちゃん👼🏼」って呼ばれてみんなに可愛がられてるけど、実はブラックな一面もある「しゅんさん😈」\nそんなしゅんちゃんは白金祭を仕切ってくれたうちのひとり！\n表には出さないけどSTING愛が強いよ🥰\nあざといしゅんちゃんは甘いものダイスキだから、お洒落なカフェに連れて行ってもらおう☕️",
-        img: `${May}`
+        img: `${watanabe}`
     },
     {
         id: "hasegawa",
@@ -219,7 +231,7 @@ const members = [
         role:"渉外・四団体",
         faculty:"法学部・グローバル法学科",
         note:"「特技けん玉」の隠キャだけど、コミュ力高くて場を盛り上げる天才🤩\nでも平気な顔して嘘ばっかりつくから１年生のみんなは注意だよ🤥\n最近やっとバイトを始めて忙しいアピールしてるけど、基本暇人だから呼べばどこにでも来てくれるよ！\n１年生のみんなはたくさん遊んでもらおう！！😻",
-        img: `${May}`
+        img: `${hasegawa}`
     },
     {
         id: "umemura",
@@ -228,7 +240,7 @@ const members = [
         role:"渉外・四団体",
         faculty:"心理学部・心理学科",
         note:"後輩想いで心優しいけーしん！！\nだけど、後輩から呼び捨てにされるほどなめられてるの🥺\nそんなけーしんの好物はラーメンだよ🍜\n毎日のようにラーメン食べてるからお腹がぽっこり🤰🏽\n戸塚にある「源泉」っていうラーメン屋さんがおすすめ！！\n１年生は連れて行ってもらおう🙌🏼",
-        img: `${May}`
+        img: `${umemura}`
     },
     {
         id: "terasima",
@@ -237,7 +249,7 @@ const members = [
         role:"ヘッドコーチ",
         faculty:"法学部・政治学科",
         note:"女の子にはとーっても優しいがくしゃん！！😍\nだけど男の子には厳しくて、自分よりイケメンだとすぐ嫉妬しちゃうの🤧\n実際そんなかっこよくないんだけどね！！笑\nテニスやってるときはかっこいいけど🤔\nそんながくしゃんは気さくで話しやすいから、みんな集まれ〜〜！",
-        img: `${May}`
+        img: `${terasima}`
     },
     {
         id: "taguti",
@@ -246,7 +258,7 @@ const members = [
         role:"渉内・会計",
         faculty:"社会学部・社会学科",
         note:"人見知りで恥ずかしがり屋なあかりちゃん。\n純粋な心と体でみんなを癒してくれる最強の癒し系。\nここまでの話はうわべの姿、、、\n本当はうるさくて、いつも元気で、みんなを笑わせてくれるムードメーカー🥳\n頼まれたら断れない性格だからいっぱいおねだりしちゃおう！！😘",
-        img: `${May}`
+        img: `${taguti}`
     },
     {
         id: "nomoto",
@@ -255,7 +267,7 @@ const members = [
         role:"渉内・連盟",
         faculty:"経済学部・経営学科",
         note:"STINGのふっ軽代表あおい😂\nとにかくフレンドリーで陽気🌈\n誘われた遊びは全力で参加しちゃうよ！！\nワンちゃんのように無邪気に遊びまわるあおいはみんなの癒し🐶❤︎\nバイトもしてるけどなによりおうちがお金持ちなの🤑\nふっ軽で羽振りがいいあおいにたっくさん遊んでもらおう！！",
-        img: `${May}`
+        img: `${nomoto}`
     },
     {
         id: "haradaguti",
@@ -264,7 +276,7 @@ const members = [
         role:"渉外・書記",
         faculty:"心理学部・心理学科",
         note:"３女のお姉さんキャラやすこ！！\nとっても優しくて、一見落ち着いてるように見えるけど、実はいじられキャラ？？🤫\nテニスは初心者だったけど、持ち前の運動神経でメキメキ上達！🎾\nバド部だったおかげかサーブがめちゃくちゃ速いの！それには男子もびっくりするんだとか🤯\n初心者の1年生はコツを伝授してもらおう！！",
-        img: `${May}`
+        img: `${haradaguti}`
     },
     {
         id: "wakabayasi",
@@ -273,7 +285,7 @@ const members = [
         role:"渉外・保健",
         faculty:"社会学部・社会学科",
         note:"しっかり者に見えて、実は泣き虫のきょんちゃん😂\nたまに毒吐くときもあるから気をつけて⚠️笑\nおしゃれタウンに一人暮らししてて、料理がすっごく上手だよ👀\nそんな京香はテニスも上手！！🎾\nテニスを一緒にするも良し！遊ぶも良し！\nいっぱい話しかけちゃおう😘😘",
-        img: `${May}`
+        img: `${wakabayasi}`
     },
     {
         id: "ikeda",
@@ -282,7 +294,7 @@ const members = [
         role:"渉外・会計",
         faculty:"経済学部・経営学科",
         note:"いつも元気いっぱいさおりちゃん！！\n常にテンション高いからみんなついていけないの😂😂\n鬼滅の刃が大好きで、アニメに詳しいからアニメ好きの子は話しかけてみて〜！！\nそんな早織はバイト経験豊富だから、まだバイトしてない子は話聞いてみるのもいいかも👀",
-        img: `${May}`
+        img: `${ikeda}`
     },
     {
         id: "mimura",
@@ -291,7 +303,6 @@ const members = [
         role:"渉外・デジ",
         faculty:"社会学部・社会福祉学科",
         note:"いつも笑顔で明るく元気なひこ！！(ちょっとやかましいかも笑)\nそんなひこはスタバでバイトしてるよ〜〜！☕️\nスタバでバイトしたい子集合だよ🤚🏼🤚🏼\nしっかりしていて、面倒見がいい🧐から困ったことがあったらなんでも聞いてみよう！！😻",
-        img: `${May}`
+        img: `${mimura}`
     },
 ]
-

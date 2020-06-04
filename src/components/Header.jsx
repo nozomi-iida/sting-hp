@@ -97,7 +97,7 @@ function Header() {
   return (
     <header className={classes.header}>
       <Box display="flex" justifyContent="space-between" className={classes.hdBox}>
-        <Typography variant="h1" className={classes.logo}>STING</Typography>
+        <Typography variant="h1" className={classes.logo}><a href="/sting-hp">STING</a></Typography>
         <Hidden smDown>
           <Box display="flex" className={classes.list}>
             <NavLink to="/sting-hp" variant="h4" className={classes.item} exact={true} >Home</NavLink>

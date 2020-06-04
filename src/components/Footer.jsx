@@ -56,7 +56,7 @@ export default () => {
           <NavLink to="/event" variant="h4" className={classes.listItem}>Event</NavLink>
           <NavLink to="/member-2" variant="h4" className={classes.listItem}>Member(2)</NavLink>
           <NavLink to="/member-3" variant="h4" className={classes.listItem}>Member(3)</NavLink>
-          <NavLink to="/question" variant="h4" className={classes.listItemLast}>Q&A</NavLink>
+          <NavLink to="/question" variant="h4" className={classes.listItem}>Q&A</NavLink>
         </Box>
         <Box display="flex" justifyContent="space-between">
           <Typography variant="h1" className={classes.logo} align="center" >STING</Typography>
