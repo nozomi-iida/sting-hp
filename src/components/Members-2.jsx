@@ -21,11 +21,6 @@ const useStyles = makeStyles((theme) => ({
     container: {
         paddingTop: theme.spacing(12),
     },
-    tag: {
-        display: "block",
-        paddingTop: "70px",
-        marginTop: "-70px",
-    },
     icon: {
         marginRight: theme.spacing(2),
     },
@@ -52,12 +47,7 @@ const useStyles = makeStyles((theme) => ({
     },
     card: {
         height: '100%',
-        display: 'flex',
-        flexDirection: 'column',
         backgroundColor:"#FDF3C3",
-    },
-    cardMedia: {
-        paddingTop: '56.25%', // 16:9
     },
     cardContent: {
         flexGrow: 1,
@@ -125,48 +115,41 @@ export default function Member() {
                         {members.map((member,index) => (
                             <Grid item key={index} xs={12} sm={6} md={4} id={member.id}>
                                 <Card className={classes.card}>
-                                    <Grid container style={{
-                                        height:"171px"
-                                    }}
+                                    <Grid container 
                                           direction="row"
                                           justify="center"
                                           alignItems="center"
                                     >
-                                        <Grid item xs={5}>
-                                            <CardMedia
+                                        <Box item >
+                                            <img
                                                 style={{
                                                     height:"171px",
-                                                    marginLeft:"6px"
+                                                    marginTop:"10px"
                                                 }}
                                                 className={classes.cardMedia}
-                                                // image={member.img}
-                                                src= {require('../imgs/tennis.JPG')}
-                                                title="Image title"
+                                                src={member.img}
+                                                alt="Image title"
                                             />
-                                        </Grid>
-                                        <Grid item xs={7}
-                                              style={{
-                                                  paddingLeft:"20px"
-                                              }}
-                                        >
-                                            <Typography className={classes.cardMediaSideTypography}>
-                                                {member.name}
-                                            </Typography>
-                                            <Typography className={classes.cardMediaSideTypography}>
-                                                {member.ruby}
-                                            </Typography>
-                                            <Typography className={classes.cardMediaSideTypography}>
-                                                {member.role}
-                                            </Typography>
-                                            <Typography className={classes.cardMediaSideTypography}
-                                                        style={{
-                                                            fontSize:"14px"
-                                                        }}
-                                            >
-                                                {member.faculty}
-                                            </Typography>
-                                        </Grid>
+                                        </Box>
                                     </Grid>
+                                    <CardContent >
+                                        <Typography className={classes.cardMediaSideTypography}>
+                                            {member.name}
+                                        </Typography>
+                                        <Typography className={classes.cardMediaSideTypography}>
+                                            {member.ruby}
+                                        </Typography>
+                                        <Typography className={classes.cardMediaSideTypography}>
+                                            {member.role}
+                                        </Typography>
+                                        <Typography className={classes.cardMediaSideTypography}
+                                                    style={{
+                                                        fontSize:"14px"
+                                                    }}
+                                        >
+                                            {member.faculty}
+                                        </Typography>
+                                    </CardContent>
                                     <CardContent className={classes.cardContent}>
                                         <Typography className={classes.cardContentTypography}>
                                             {member.note.split('\n').map((str, index) => (
@@ -192,8 +175,7 @@ const members = [
         role:"渉内補佐・コーチ",
         faculty:"法学部・消費情報環境学科",
         note:"やまたくの弟子一人目、鈴木了介🙋🏽\nSTING大好きなリョウスケはいつも遊びの計画を立ててくれるよ！\n盛り上げ上手なリョウスケと遊べば楽しいこと間違いなし🤩\nやまたくの弟子だから、なんでも奢ってくれるはずだよ😉",
-        // img: "https://source.unsplash.com/random",
-        img: "/imgs/baby-steps.jpeg"
+        img: `${May}`
     },
 
     {
@@ -203,7 +185,7 @@ const members = [
         role:"渉内補佐・連盟",
         faculty:"文学部・フランス文学科",
         note:"愛称はクマ🐻\nインスタでSTINGのアーカイブ投稿をこっそりしている実はサークル愛が深い系男子🐻❤️\nそんなクマは千葉に住んでるレアものだよ！🐻\nザイザイと千葉住みは集まれ〜！！🐻💫",
-        img: {May},
+        img: `${May}`
     },
 
     {
@@ -214,6 +196,7 @@ const members = [
         faculty:"心理学部・心理学科",
         attraction:"先輩・後輩関係なく仲が良い事",
         note:"見た目通りの優しさとノリの良さから''子牛君''って呼ばれてるよ🐮\nマジメとおバカを兼ね備えた逸材😂😂\n素直で泣き虫なところも可愛いよ😬\n出会った人を虜にする謎の魅力がある？？🧐\nそんなりょじくんは年中彼女募集中だから１女のみんなは今がチャンス！！🌟",
+        img: `${May}`
     },
     {
         id: "takaoka",
@@ -223,6 +206,7 @@ const members = [
         faculty:"経済学部・経済学科",
         attraction:"先輩・後輩関係なく仲が良い事",
         note:"四団体のイケメンたいち🕺🏽💕\n服が趣味のたいちは、古着巡りやショッピングが大好きなの！！\nハイブランドすぎてトータルコーディネート○○万円のときもあるらしい？！🤑\nそんなたいちといっしょにショッピングしたい子は集まれっ😻😻",
+        img: `${May}`
     },
     {
         id: "egasira",
@@ -231,6 +215,7 @@ const members = [
         role:"渉内補佐・連盟",
         faculty:"文学部・英文学科",
         note:"やまたくの弟子二人目、江頭柚衣🙋🏽‍♀️\n極度の人見知りゆいちゃん。\n初対面だと全く話さないし控えめなのに、仲良くなるとよくしゃべる？？😆\n一人暮らししてるからたくさん遊びに行って、ゆいちゃんの本性知っちゃおう😍",
+        img: `${May}`
     },
     {
         id: "nakamura",
@@ -239,6 +224,7 @@ const members = [
         role:"渉内補佐・コーチ",
         faculty:"国際学部・国際学科",
         note:"ともみの愛称は「てぃも」🧚‍♀️\nテニスがうまくて、スタイル抜群で、とーっても美人さんだけど、残念ながら単位なし🤦🏽‍♀️🤦🏽‍♀️\n２年はまともに過ごすみたいだけど、STINGのみんなといると単位のことなんて忘れちゃうからたくさん遊んでくれるはず！！😂\n今から留年しないか心配だよ🤧",
+        img: `${May}`
     },
     {
         id: "kaneko",
@@ -247,6 +233,7 @@ const members = [
         role:"渉外補佐",
         faculty:"文学部・フランス文学科",
         note:"テニスがとっても上手なりほ！！🎾\n初心者の子はりほに教えてもらえば絶対うまくなるよっ😻\nそんなりほは優しくて、話しやすいの！！\n１年生はフレンドリーなりほのところに集合❣️",
+        img: `${May}`
     },
     {
         id: "hamada",
@@ -255,6 +242,7 @@ const members = [
         role:"渉外補佐",
         faculty:"社会学部・社会福祉学科",
         note:"あつみの愛称は「あったん」👼🏼可愛いくて、ちょっぴり天然なあったんのことがみんなだーいすきなの🤤❤️そんなあったんは巫女さんのバイトしてて、実は双子っていうウワサだよ🤭いっしょに遊んだらイチコロ😏あったんと遊びたい１年生は集合❤︎❤︎",
+        img: `${May}`
     },
     {
         id: "akeno",
@@ -263,6 +251,7 @@ const members = [
         role:"渉内補佐",
         faculty:"社会学部・社会福祉学科",
         note:"あったんとニコイチきょうか👩‍❤️‍👩\nきょうかのあざとさに男子はみんな騙されちゃう🤦🏽‍♀️🤦🏽‍♀️\n１男は気をつけるべし！！⚠️笑\nそんなきょうかはすっごいお金持ちだからたくさん奢ってもらおう！！🤑！！",
+        img: `${May}`
     },
     {
         id: "harada",
@@ -271,6 +260,7 @@ const members = [
         role:"渉外補佐",
         faculty:"社会学部・社会学科",
         note:"愛されキャラのりり！！💖\nフレンドリーで誰とでもすぐ仲良くなっちゃう😘\nそんなりりは怒ると、ふぐみたいに口を膨らますからみんなから''ふぐ🐡''って呼ばれてるよ😉\n怒ったりりから発射されるちぇるちぇるびーむ⚡️を見たい子は集まれ〜！🙋🏽‍♀️🙋🏽‍♀️",
+        img: `${May}`
     },
     {
         id: "an",
@@ -279,6 +269,7 @@ const members = [
         role:"渉外補佐",
         faculty:"社会学部・社会学科",
         note:"がんちゃんことあんちゃん！！😆\nとーっても優しいあんちゃんは最近２年生のみんなを引っ張ってくれてるみたい❣️\nテニス初心者だけど、どんどんうまくなってるよ！！🎾\nそんなあんちゃんはお洒落なカフェに詳しいから連れて行ってもらおう☕️💗",
+        img: `${May}`
     },
     {
         id: "abe",
@@ -287,5 +278,6 @@ const members = [
         role:"渉内補佐",
         faculty:"国際学部・国際学科",
         note:"ラストはタリーズでバイトしてるオシャレガールせいら☕️💕\nそんなせいらは人見知りで、いつも機嫌悪そうだよ😂😂\nだけどホントはすっごい良い子で、１年生のみんなから話しかけられたら喜ぶと思う！！笑\nいつも金欠って騒いでるけど、かわいい１年生のためならたくさん奢ってくれるよ😘",
+        img: `${May}`
     },
 ]
