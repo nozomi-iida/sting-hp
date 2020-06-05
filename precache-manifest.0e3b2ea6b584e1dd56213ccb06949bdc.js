@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "14d997cc0c38507be89422d4154a3551",
+    "revision": "eb9eba00f3dd9d8f3324dfd8f7ffe53e",
     "url": "/sting-hp/index.html"
   },
   {

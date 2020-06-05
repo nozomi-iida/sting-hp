@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/sting-hp/precache-manifest.4cebdd1bdd2a4a1a3499e83ed1e1fa07.js"
+  "/sting-hp/precache-manifest.0e3b2ea6b584e1dd56213ccb06949bdc.js"
 );
 
 self.addEventListener('message', (event) => {
