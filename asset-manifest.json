@@ -1,21 +1,22 @@
 {
   "files": {
-    "main.css": "/sting-hp/static/css/main.a7f420ae.chunk.css",
-    "main.js": "/sting-hp/static/js/main.ba32e13d.chunk.js",
-    "main.js.map": "/sting-hp/static/js/main.ba32e13d.chunk.js.map",
+    "main.css": "/sting-hp/static/css/main.c5a24c27.chunk.css",
+    "main.js": "/sting-hp/static/js/main.9a25f725.chunk.js",
+    "main.js.map": "/sting-hp/static/js/main.9a25f725.chunk.js.map",
     "runtime-main.js": "/sting-hp/static/js/runtime-main.11660091.js",
     "runtime-main.js.map": "/sting-hp/static/js/runtime-main.11660091.js.map",
-    "static/js/2.ab0b1954.chunk.js": "/sting-hp/static/js/2.ab0b1954.chunk.js",
-    "static/js/2.ab0b1954.chunk.js.map": "/sting-hp/static/js/2.ab0b1954.chunk.js.map",
+    "static/js/2.59483140.chunk.js": "/sting-hp/static/js/2.59483140.chunk.js",
+    "static/js/2.59483140.chunk.js.map": "/sting-hp/static/js/2.59483140.chunk.js.map",
     "index.html": "/sting-hp/index.html",
-    "precache-manifest.1c20fca57ef98557a63c1528e3bf3e2c.js": "/sting-hp/precache-manifest.1c20fca57ef98557a63c1528e3bf3e2c.js",
+    "precache-manifest.4cebdd1bdd2a4a1a3499e83ed1e1fa07.js": "/sting-hp/precache-manifest.4cebdd1bdd2a4a1a3499e83ed1e1fa07.js",
     "service-worker.js": "/sting-hp/service-worker.js",
-    "static/css/main.a7f420ae.chunk.css.map": "/sting-hp/static/css/main.a7f420ae.chunk.css.map",
-    "static/js/2.ab0b1954.chunk.js.LICENSE.txt": "/sting-hp/static/js/2.ab0b1954.chunk.js.LICENSE.txt",
+    "static/css/main.c5a24c27.chunk.css.map": "/sting-hp/static/css/main.c5a24c27.chunk.css.map",
+    "static/js/2.59483140.chunk.js.LICENSE.txt": "/sting-hp/static/js/2.59483140.chunk.js.LICENSE.txt",
     "static/media/August.JPG": "/sting-hp/static/media/August.a8770807.JPG",
     "static/media/December.JPG": "/sting-hp/static/media/December.c85e815e.JPG",
     "static/media/July.JPG": "/sting-hp/static/media/July.ec9cf1ac.JPG",
     "static/media/June.JPG": "/sting-hp/static/media/June.ed494f09.JPG",
+    "static/media/Line.jpg": "/sting-hp/static/media/Line.afc295d1.jpg",
     "static/media/May.JPG": "/sting-hp/static/media/May.504052ce.JPG",
     "static/media/November.JPG": "/sting-hp/static/media/November.6d224533.JPG",
     "static/media/main.scss": "/sting-hp/static/media/smile.0590434b.JPG",
@@ -54,8 +55,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.11660091.js",
-    "static/js/2.ab0b1954.chunk.js",
-    "static/css/main.a7f420ae.chunk.css",
-    "static/js/main.ba32e13d.chunk.js"
+    "static/js/2.59483140.chunk.js",
+    "static/css/main.c5a24c27.chunk.css",
+    "static/js/main.9a25f725.chunk.js"
   ]
 }

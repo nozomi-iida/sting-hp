@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4c6b381cc43eeeb1ac39b7754a985c46",
+    "revision": "14d997cc0c38507be89422d4154a3551",
     "url": "/sting-hp/index.html"
   },
   {
-    "revision": "cdba489e4961a074d1b1",
-    "url": "/sting-hp/static/css/main.a7f420ae.chunk.css"
+    "revision": "2e7cb40b633325da3265",
+    "url": "/sting-hp/static/css/main.c5a24c27.chunk.css"
   },
   {
-    "revision": "676972ce8a4ea4824434",
-    "url": "/sting-hp/static/js/2.ab0b1954.chunk.js"
+    "revision": "68893339a0b171c79c7c",
+    "url": "/sting-hp/static/js/2.59483140.chunk.js"
   },
   {
     "revision": "0749163b59fbee32225059cb60c18af6",
-    "url": "/sting-hp/static/js/2.ab0b1954.chunk.js.LICENSE.txt"
+    "url": "/sting-hp/static/js/2.59483140.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "cdba489e4961a074d1b1",
-    "url": "/sting-hp/static/js/main.ba32e13d.chunk.js"
+    "revision": "2e7cb40b633325da3265",
+    "url": "/sting-hp/static/js/main.9a25f725.chunk.js"
   },
   {
     "revision": "4489136bd7bd05720f30",
@@ -38,6 +38,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "ed494f098eeabedf645f5b86323f7296",
     "url": "/sting-hp/static/media/June.ed494f09.JPG"
+  },
+  {
+    "revision": "afc295d1cecb6da710720a5b099c710e",
+    "url": "/sting-hp/static/media/Line.afc295d1.jpg"
   },
   {
     "revision": "504052ce0739bff807274c849d94e7b9",
