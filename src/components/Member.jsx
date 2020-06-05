@@ -1,7 +1,6 @@
 import  React from 'react';
 import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
-import CardMedia from '@material-ui/core/CardMedia';
 // import CssBaseline from '@material-ui/core/CssBaseline';
 import Grid from '@material-ui/core/Grid';
 import Typography from '@material-ui/core/Typography';
@@ -145,7 +144,7 @@ export default function Member() {
                                                 }}
                                                 className={classes.cardMedia}
                                                 src={member.img}
-                                                alt="Image title"
+                                                alt="title"
                                             />
                                         </Box>
                                     </Grid>
@@ -183,7 +182,6 @@ export default function Member() {
         </React.Fragment>
     );
 }
-const cards = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 const members = [
     {
         id: "yamada",

@@ -1,14 +1,11 @@
 import  React from 'react';
 import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
-import CardMedia from '@material-ui/core/CardMedia';
-// import CssBaseline from '@material-ui/core/CssBaseline';
 import Grid from '@material-ui/core/Grid';
 import Typography from '@material-ui/core/Typography';
 import { makeStyles } from '@material-ui/core/styles';
 import Container from '@material-ui/core/Container';
 import Box from '@material-ui/core/Box';
-import May from '../imgs/May.JPG';
 import akeno from '../memberImages2/akeno.jpg';
 import an from '../memberImages2/an.jpg';
 import egasira from '../memberImages2/egasira.jpg';
@@ -121,7 +118,7 @@ export default function Member() {
                         </Grid>
                     </Container>
                 </div>
-                <Container className={classes.cardGrid, classes.tag} maxWidth="md">
+                <Container className={classes.cardGrid} maxWidth="md">
                     {/* End hero unit */}
                     <Grid container spacing={4}>
                         {members.map((member,index) => (
@@ -140,7 +137,7 @@ export default function Member() {
                                                 }}
                                                 className={classes.cardMedia}
                                                 src={member.img}
-                                                alt="Image title"
+                                                alt="title"
                                             />
                                         </Box>
                                     </Grid>
@@ -178,7 +175,7 @@ export default function Member() {
         </React.Fragment>
     );
 }
-const cards = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+
 const members = [
     {
         id: "suzuki",
