@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "eb9eba00f3dd9d8f3324dfd8f7ffe53e",
+    "revision": "28ef783da49648a8748d32a6f555bbf2",
     "url": "/sting-hp/index.html"
   },
   {
-    "revision": "2e7cb40b633325da3265",
+    "revision": "4a99ff843386e333a7c2",
     "url": "/sting-hp/static/css/main.c5a24c27.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/sting-hp/static/js/2.59483140.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "2e7cb40b633325da3265",
-    "url": "/sting-hp/static/js/main.9a25f725.chunk.js"
+    "revision": "4a99ff843386e333a7c2",
+    "url": "/sting-hp/static/js/main.4ba208ac.chunk.js"
   },
   {
     "revision": "4489136bd7bd05720f30",
@@ -76,8 +76,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/sting-hp/static/media/event.90f8bc00.JPG"
   },
   {
-    "revision": "7dba7608564511cf7b05be7dd17c438c",
-    "url": "/sting-hp/static/media/firstView.7dba7608.JPG"
+    "revision": "56252032a08e65fe48b1c4bdeef7c51f",
+    "url": "/sting-hp/static/media/firstView.56252032.jpg"
   },
   {
     "revision": "3747449d0051639007951b1358934e48",
