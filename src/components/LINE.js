@@ -11,7 +11,7 @@ export default () => {
         友達登録してLINEでしか得られないSTINGの情報をGetしよう！</p>
         <Box textAlign='center'>
           <img src={LINE} className="line-img" alt="" />
-          <p className="line-note" >※QRコードを読み込むとSTINGの代表LINEとつながります。<br/>そこで「新歓グループに入りたいです。」とメッセージを送ってください。</p>
+          <p className="line-note" >※QRコードを読み込むとSTINGの代表LINEとつながります。<br/>そこで「新歓グループに入りたいです！」とメッセージを送ってください。</p>
         </Box>
       </div>
     </section>

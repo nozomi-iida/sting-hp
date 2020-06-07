@@ -1,5 +1,5 @@
 import React from 'react';
-import FirstviewImg from '../imgs/firstView.JPG';
+import FirstviewImg from '../imgs/firstView.jpg';
 import Button from '@material-ui/core/Button';
 import placeImg from '../imgs/tennis.JPG';
 import { makeStyles } from '@material-ui/core/styles';
@@ -111,14 +111,14 @@ export default () => {
         </Box>
       </section>
 
-      <section id="movie">
+      {/* <section id="movie">
         <Box className={classes.inner}>
           <Typography variant="h2" className={classes.title}>STING紹介動画</Typography>
           <Box className="movie-wrap">
             <iframe title="movie" className="movie-wrap-iframe" width="560" height="315" src="https://www.youtube.com/embed/hQbe_Ib8np4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </Box>
         </Box>
-      </section>
+      </section> */}
 
       <section id="place">
         <div Box className={classes.inner}>
