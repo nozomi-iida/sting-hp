@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/sting-hp/static/css/main.c5a24c27.chunk.css",
-    "main.js": "/sting-hp/static/js/main.4ba208ac.chunk.js",
-    "main.js.map": "/sting-hp/static/js/main.4ba208ac.chunk.js.map",
+    "main.js": "/sting-hp/static/js/main.1ce9d065.chunk.js",
+    "main.js.map": "/sting-hp/static/js/main.1ce9d065.chunk.js.map",
     "runtime-main.js": "/sting-hp/static/js/runtime-main.11660091.js",
     "runtime-main.js.map": "/sting-hp/static/js/runtime-main.11660091.js.map",
-    "static/js/2.59483140.chunk.js": "/sting-hp/static/js/2.59483140.chunk.js",
-    "static/js/2.59483140.chunk.js.map": "/sting-hp/static/js/2.59483140.chunk.js.map",
+    "static/js/2.ffb3bef9.chunk.js": "/sting-hp/static/js/2.ffb3bef9.chunk.js",
+    "static/js/2.ffb3bef9.chunk.js.map": "/sting-hp/static/js/2.ffb3bef9.chunk.js.map",
     "index.html": "/sting-hp/index.html",
-    "precache-manifest.666c7e9ecbb146379aaba3ca21f3903e.js": "/sting-hp/precache-manifest.666c7e9ecbb146379aaba3ca21f3903e.js",
+    "precache-manifest.c2f536602789e8c3cf31d2c7a2a0b1a6.js": "/sting-hp/precache-manifest.c2f536602789e8c3cf31d2c7a2a0b1a6.js",
     "service-worker.js": "/sting-hp/service-worker.js",
     "static/css/main.c5a24c27.chunk.css.map": "/sting-hp/static/css/main.c5a24c27.chunk.css.map",
-    "static/js/2.59483140.chunk.js.LICENSE.txt": "/sting-hp/static/js/2.59483140.chunk.js.LICENSE.txt",
+    "static/js/2.ffb3bef9.chunk.js.LICENSE.txt": "/sting-hp/static/js/2.ffb3bef9.chunk.js.LICENSE.txt",
     "static/media/August.JPG": "/sting-hp/static/media/August.a8770807.JPG",
     "static/media/December.JPG": "/sting-hp/static/media/December.c85e815e.JPG",
     "static/media/July.JPG": "/sting-hp/static/media/July.ec9cf1ac.JPG",
@@ -19,6 +19,7 @@
     "static/media/Line.jpg": "/sting-hp/static/media/Line.afc295d1.jpg",
     "static/media/May.JPG": "/sting-hp/static/media/May.504052ce.JPG",
     "static/media/November.JPG": "/sting-hp/static/media/November.6d224533.JPG",
+    "static/media/October.jpg": "/sting-hp/static/media/October.fef32f36.jpg",
     "static/media/main.scss": "/sting-hp/static/media/smile.0590434b.JPG",
     "static/media/September.JPG": "/sting-hp/static/media/September.416d74db.JPG",
     "static/media/akeno.jpg": "/sting-hp/static/media/akeno.ec2a630a.jpg",
@@ -55,8 +56,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.11660091.js",
-    "static/js/2.59483140.chunk.js",
+    "static/js/2.ffb3bef9.chunk.js",
     "static/css/main.c5a24c27.chunk.css",
-    "static/js/main.4ba208ac.chunk.js"
+    "static/js/main.1ce9d065.chunk.js"
   ]
 }
