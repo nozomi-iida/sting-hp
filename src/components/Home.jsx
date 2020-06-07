@@ -129,7 +129,7 @@ export default () => {
                 <p>
                   活動場所：<br/>
                   立場テニスコート<br/>
-                  （東京都大田区仲六郷２−６−７）<br/>
+                  （神奈川県横浜市泉区中田西１丁目１６−７）<br/>
                 </p>
               </Box>
               <Box className={classes.placeBox}>
